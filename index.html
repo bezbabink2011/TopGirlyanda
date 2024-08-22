@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./img/Знімок екрана 2024-08-15 183355.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopGirlyanda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+           <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="#hid1" class="a">Home</a></li>
+                <li class="li"><a href="#hid2" class="a">Види гірлянд</a></li>
+                <li class="li"><a href="#hid3" class="a">Розміри гірлянд</a></li>
+                <li class="li"><a href="#hid4" class="a">Готові варіанти</a></li>
+                <li class="li"><a href="#hid5" class="a">Кольори гірлянд</a></li>
+                <li class="li"><a href="#hid6" class="a">Партнери</a></li>
+            </ul>
+           </nav>
+           <button class="btn2" onclick="document.getElementById('sign-up').
+            style.display='block'">Sign Up</button>
+
+           <div class="sign-up" id="sign-up">
+            <span class="close" onclick="document.getElementById('sign-up').style.display='none'">&times;</span>
+
+            <form action="#" class="sign-up-content">
+                <div class="conteiner2">
+                    <h1>Sign Up</h1>
+                    <p>Заповніть ці форми</p>
+
+                    <hr>
+
+                    <label for="email">Emeil</label>
+                    <input type="emeil" id="emeil" name="emeil" placeholder="Введіть свою електронну адресу" required
+                    autocomplete="off">
+
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="Задайте пароль" required>
+
+                    <label for="pass-repeat">Password</label>
+                    <input type="password" id="pass-repeat" name="pass-repeat" placeholder="Повторіть пароль"
+                    required>
+
+                    <label for="#">
+                        <input type="checkbox" name="remember" id="remember" checked> Remember Me
+                    </label>
+
+                    <p>Створюючи обліковий запис, ви погоджуєтеся з нашими <a href="#">Умови та політика конфіденційності</a></p>
+
+                    <div class="buttons">
+                        <button type="button" class="cancelBtn" onclick="document.getElementById('sign-up').style.display='none'">Cancel</button>
+                        <button type="button" class="singUpBtn" onclick="document.getElementById('sign-up').style.display='none'">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+           </div>
+           <div class="page">
+            <button class="button3" onclick="changeColor();">Fon Color</button>
+        </div>
+    
+        <script src="app.js"></script>
+    </header>  
+    <main>
+        <section class="section1 max-width">
+            <img src="./img/icon/Знімок екрана 2024-08-18 134855.png" alt="" class="fon">
+            <div class="column">
+                <h2 id="hid1">Зробіть свій <span class="orange">ДІм</span></h2>
+                <h2>готовим до Нового Року разом з TopGirlyanda</h2>
+                <div class="flex_wrap">
+                    <button class="btn_banner">Гірлянда штора</button>
+                    <button class="btn_banner">Гірлянда штора роса</button>
+                    <button class="btn_banner">Гірлянда кінскій хвіст</button>
+                    <button class="btn_banner">Гірлянда зорепад</button>
+                    <button class="btn_banner">Гірлянда пробка</button>
+                    <button class="btn_banner">Смарт гірлянда</button>
+                </div>
+            </div>
+            <form action="">
+                <h3>Замовити розрахунок</h3>
+                <img src="./img/icon/pngwing.com.png" alt="">
+                <button class="btn" >Замовити розрахунок</button>
+            </form>
+        </section>
+        <section class="section2">
+            <h2 id="hid2">Види гірлянд</h2>
+            <div class="flex_wrap" id="section2">
+                <div class="colum">
+                    <div class="cercle"></div>
+                    <h4>Гірлянда штора</h4>
+                    <button class="btn">Детальніше</button>
+                    <img src="./img/icon/Знімок екрана 2024-08-19 114750.png" alt="">
+                </div>
+                <div class="colum">
+                    <div class="cercle"></div>
+                    <h4>Гірлянда штора роса</h4>
+                    <button class="btn">Детальніше</button>
+                    <img src="./img/icon/Знімок екрана 2024-08-19 180034.png" alt="">
+                </div>
+                <div class="colum">
+                    <div class="cercle"></div>
+                    <h4>Гірлянда кінскій хвіст</h4>
+                    <button class="btn">Детальніше</button>
+                    <img src="./img/icon/Знімок екрана 2024-08-18 150249.png" alt="">
+                </div>
+                <div class="colum">
+                    <div class="cercle"></div>
+                    <h4>Гірлянда зорепад</h4>
+                    <button class="btn">Детальніше</button>
+                    <img src="./img/icon/Знімок екрана 2024-08-18 150038.png" alt="">
+                </div>
+                <div class="colum">
+                    <div class="cercle"></div>
+                    <h4>Гірлянда пробка</h4>
+                    <button class="btn">Детальніше</button>
+                    <img src="./img/icon/Знімок екрана 2024-08-18 150936.png" alt="">
+                </div>
+                <div class="colum">
+                    <div class="cercle"></div>
+                    <h4>Смарт гірлянда</h4>
+                    <button class="btn">Детальніше</button>
+                    <img src="./img/icon/Знімок екрана 2024-08-20 111321.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+        </section>
+        <section class="section4">
+            <h2 id="hid3">Розміри гірлянд</h2>
+            <div class="wrap" id="section4">
+                <div class="flex">
+                    <div class="column">
+                        <h4>Гірлянда штора</h4>
+                        <p>2мx1м, 2мx2м, 2мx3м.</p> 
+                        <p>3мx1м, 3мx2м, 3мx3м.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="column">
+                        <h4>Гірлянда штора роса</h4>
+                        <p>2мx1м, 2мx2м, 2мx3м.</p> 
+                        <p>3мx1м, 3мx2м, 3мx3м.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="column">
+                        <h4>Гірлянда кінскій хвіст</h4>
+                        <p>1м,2м,3м.10,20 ниток</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="column">
+                        <h4>Гірлянда зорепад</h4>
+                        <p>Є тільки 3мx1м.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="column">
+                        <h4>Гірлянда пробка</h4>
+                        <p>Є тільки 1м.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="column">
+                        <h4>Смарт гірлянда</h4>
+                        <p>5м,10м,20м.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5 max-width">
+            <h2 id="hid4">Подивіться на готові варіанти</h2>
+            <div class="wrap" id="section5">
+                <img src="./img/icon/Знімок екрана 2024-08-18 145719.png" alt="">
+                <img src="./img/icon/Знімок екрана 2024-08-18 153424.png" alt="">
+                <img src="./img/icon/Знімок екрана 2024-08-19 184651.png" alt="">
+                <img src="./img/icon/Знімок екрана 2024-08-19 184408.png" alt="">
+                <img src="./img/icon/Знімок екрана 2024-08-19 184809.png" alt="">
+                <img src="./img/icon/Знімок екрана 2024-08-18 150038.png" alt="">
+            </div>
+            <button class="btn" id="modal">Детальніше <img src="./img/icon/btn_arr.png" alt=""></button>
+        </section>
+        <section class="section6">
+            <h2 id="hid5">Кольори гірлянд</h2>
+            <div class="flex">
+                <div class="blok">
+                    <img src="./img/content/person.png" alt="">
+                    <div class="colum">
+                        <span>Вітаю, мене звуть</span>
+                        <span>Безбабін Кирило.</span>
+                        <span>Я керівник компанії TopGirlyanda.</span>
+                    </div>
+                </div>
+                <ul>
+                    <li>Гірлянда штора: теплий білий ,холодний білий ,мультік ,синій.</li>
+                    <li>Гірлянда штора роса: теплий білий ,холодний білий ,синій.</li>
+                    <li>Гірлянда кінскій хвіст: теплий білий ,холодний білий ,синій.</li>
+                    <li>Гірлянда зорепад: теплий білий ,холодний білий ,мультік ,синій.</li>
+                    <li>Гірлянда пробка: теплий білий ,холодний білий ,синій.</li>
+                    <li>Смарт гірлянда: всі кольори в одній лед гірлянді вибирай колір через додаток.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section7 max-width">
+            <div class="wrap">
+                <div class="flex">
+                    <h2>3</h2>
+                    <p>років досвіду</p>
+                </div>
+                <div class="flex">
+                    <h2>3</h2>
+                    <p>фахівця</p>
+                </div>
+                <div class="flex">
+                    <h2>500+</h2>
+                    <p>відправлених гірлянд</p>
+                </div>
+            </div>
+        </section>
+        <section class="section8">
+            <h2 id="hid6">Партнери</h2>
+            <div class="slider">
+                <div class="left">
+                    <img src="./img/content/slider-section/sl_arrow_left.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="wrapper">
+                        <img src="./img/Знімок екрана 2024-08-15 183355.png" alt="">
+                        <img src="./img/icon/Знімок екрана 2024-08-20 101532.png" alt="">
+                        <img src="./img/icon/Знімок екрана 2024-08-20 144815.png" alt="">
+                        <img src="./img/icon/Знімок екрана 2024-08-20 104757.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./img/content/slider-section/sl_arrow_right.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>TopGirlyanda</h3>
+            <div class="colum">
+                <b>Види гірлянд</b>
+                <ul id="foooter">
+                    <li><a href="">- Гірлянда штора</a></li>
+                    <li><a href="">- Гірлянда штора роса</a></li>
+                    <li><a href="">- Гірлянда кінскій хвіст</a></li>
+                    <li><a href="">- Гірлянда зорепад</a></li>
+                    <li><a href="">- Гірлянда пробка</a></li>
+                    <li><a href="">- Смарт гірлянда</a></li>
+                </ul>
+            </div>
+            <div class="colum">
+                <b>Наші роботи</b>
+                <b>Відгуки клієнтів</b>
+                <b>Партнери</b>
+            </div>
+            <div class="colum">
+                <b>Контакти</b>
+                <div class="flex">
+                    <img src="./img/icon/footer-icon/map.svg" alt=""><span>Україна, м. Київ</span>
+                </div>
+                <div class="flex">
+                    <img src="./img/icon/footer-icon/message.svg" alt=""><span>Ел.пошта: username@gmail.com</span>
+                </div>
+                <div class="flex">
+                    <img src="./img/icon/footer-icon/message.svg" alt=""><span>+38 (098) 000-00-00</span>
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <a href="#" target="_blank"><img src="./img/icon/footer-icon/facebook.png" alt=""></a>
+                        <a href="#" target="_blank"><img src="./img/icon/footer-icon/instagramm.svg" alt=""></a>
+                        <a href="#" target="_blank"><img src="./img/icon/footer-icon/youtube.svg" alt=""></a>
+                    </div>
+                    <span>
+                        Свіжі відео
+                        у нас в тік ток 
+                    </span>
+                </div>
+            </div>
+            <img src="./img/icon/footer-icon/btn_up.png" alt="" id="gotop" class="gotop">
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="conteiner">
+            <h3>Задати запитання</h3>
+            <p>Залишились питання? Наші експерти дадуть вам відповідь у найближчий 
+                робочий час!</p>
+            <textarea name="" id=""></textarea>
+            <input type="text">
+            <button class="btn">Надіслати запитання</button>
+        </div>
+    </div>
+</body>
+
+</html>
